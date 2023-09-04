@@ -34,3 +34,6 @@ async function mintNFT() {
 }
 
 mintNFT();
+
+
+

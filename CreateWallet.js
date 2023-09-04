@@ -12,8 +12,6 @@ function createWallet() {
 }
 
 
- 
-
 async function fundWallet(seed) {
     const wallet = Wallet.fromSeed(seed);
     const client = new Client("wss://s.altnet.rippletest.net/");
@@ -32,3 +30,4 @@ async function fundWallet(seed) {
 //createWallet();
 fundWallet(createWallet());
  
+
